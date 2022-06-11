@@ -7,7 +7,7 @@ import { GrSoundcloud } from "react-icons/gr";
 const Footer = () => {
   return (
     <footer>
-      <a href="" className="footer__logo">
+      <a href="#home" className="footer__logo">
         Marco Chiaro
       </a>
 
