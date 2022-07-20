@@ -42,10 +42,19 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse harum
-            eum enim laborum ipsum dolor eveniet eos ex. Quia, autem voluptas
-            eius doloribus aspernatur aliquid repudiandae a amet recusandae
-            adipisci?
+            I am a Systems Analyst student at the University of Palermo,
+            currently in the 2nd and before last year. I've been learning for
+            about 2 years in a self-taught way and through some courses on
+            different platforms, to develop dynamic applications with libraries
+            and frameworks such as ReactJS, NextJs, Typescript, Redux,
+            Mobx-state-tree, among others. I've carried out many dynamic web
+            application projects, such as stores, shopping carts, personalized
+            portfolios, Chat app, To Do Apps, APIs, among others. On the other
+            hand, I have learned, in the university, the basics of programming
+            languages ​​such as Python and SQL. I am very interested and excited
+            to start my career in IT, with the main purpose of learning,
+            developing my skills as a programmer and being able to grow in a
+            company contributing my desire and enthusiasm.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

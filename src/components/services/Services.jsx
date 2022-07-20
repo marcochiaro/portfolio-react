@@ -3,6 +3,54 @@ import "./services.css";
 import { BiCheck } from "react-icons/bi";
 
 const Services = () => {
+  const stateManagament = [
+    {
+      id: 1,
+      text: "ContextAPI",
+    },
+    {
+      id: 1,
+      text: "Mobx-state-tree",
+    },
+    {
+      id: 1,
+      text: "React Redux",
+    },
+  ];
+  const mainStack = [
+    {
+      id: 1,
+      text: "NextJS",
+    },
+    {
+      id: 1,
+      text: "ReactJS",
+    },
+    {
+      id: 1,
+      text: "TypeScript",
+    },
+  ];
+
+  const styling = [
+    {
+      id: 1,
+      text: "Ant-Design",
+    },
+    {
+      id: 1,
+      text: "styled-components",
+    },
+    {
+      id: 1,
+      text: "css.modules",
+    },
+    {
+      id: 1,
+      text: "Bootstrap",
+    },
+  ];
+
   return (
     <section id="services">
       <h5>What I Offer</h5>
@@ -12,39 +60,18 @@ const Services = () => {
         {/* UX/UI ARTICLE */}
         <article className="service">
           <div className="service__head">
-            <h3>UX/UI Design</h3>
+            <h3>State Management</h3>
           </div>
 
           <ul className="service__list">
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
+            {stateManagament.map((item) => {
+              return (
+                <li key={item.id}>
+                  <BiCheck className="service__list-icon" />
+                  <p>{item.text}</p>
+                </li>
+              );
+            })}
           </ul>
         </article>
         {/* END OF UX/UI ARTICLE */}
@@ -52,39 +79,18 @@ const Services = () => {
         {/* WEB DEVELOPMENT ARTICLE */}
         <article className="service">
           <div className="service__head">
-            <h3>UX/UI Design</h3>
+            <h3>Main Stack</h3>
           </div>
 
           <ul className="service__list">
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
+            {mainStack.map((item) => {
+              return (
+                <li key={item.id}>
+                  <BiCheck className="service__list-icon" />
+                  <p>{item.text}</p>
+                </li>
+              );
+            })}
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT ARTICLE */}
@@ -92,39 +98,18 @@ const Services = () => {
         {/* CONTENT CREATION ARTICLE */}
         <article className="service">
           <div className="service__head">
-            <h3>UX/UI Design</h3>
+            <h3>Styles</h3>
           </div>
 
           <ul className="service__list">
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
+            {styling.map((item) => {
+              return (
+                <li key={item.id}>
+                  <BiCheck className="service__list-icon" />
+                  <p>{item.text}</p>
+                </li>
+              );
+            })}
           </ul>
         </article>
         {/* END OF CONTENT CREATION ARTICLE */}

@@ -3,9 +3,9 @@ import "./porfolio.css";
 import IMG1 from "../../assets/fotos-proyectos/FOTO2.jpeg";
 import IMG2 from "../../assets/fotos-proyectos/ToDo.jpeg";
 import IMG3 from "../../assets/fotos-proyectos/CARRITO.jpeg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG4 from "../../assets/fotos-proyectos/chat-room.png";
+import IMG5 from "../../assets/fotos-proyectos/gastos.png";
+import IMG6 from "../../assets/fotos-proyectos/wallet-transactions.png";
 
 const data = [
   {
@@ -32,22 +32,22 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "",
-    github: "",
+    title: "Chat rooms login with Google.",
+    github: "https://github.com/marcochiaro/chat-rooms",
     demo: "",
   },
   {
     id: 5,
     image: IMG5,
-    title: "",
-    github: "",
+    title: "Expenses Management App",
+    github: "https://github.com/marcochiaro/expenses-management",
     demo: "",
   },
   {
     id: 6,
     image: IMG6,
-    title: "",
-    github: "",
+    title: "Metamask wallet transactions",
+    github: "https://github.com/CollaborativeTeam/challenge",
     demo: "",
   },
 ];

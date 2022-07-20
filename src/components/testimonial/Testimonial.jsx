@@ -1,8 +1,8 @@
 import React from "react";
 import "./testimonial.css";
-import AVTR1 from "../../assets/avatar1.jpg";
-import AVTR2 from "../../assets/avatar2.jpg";
-import AVTR3 from "../../assets/avatar3.jpg";
+import AVTR1 from "../../assets/fotos-proyectos/avatar2.jpg";
+import AVTR2 from "../../assets/fotos-proyectos/daisaku.jpg";
+import AVTR3 from "../../assets/fotos-proyectos/joe-dispenza.jpg";
 import AVTR4 from "../../assets/avatar4.jpg";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -19,29 +19,29 @@ const data = [
     id: 1,
     image: AVTR1,
     alt: "Avatar one",
-    name: "La Mona Gimenez",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempore ipsam labore odit nulla, aut voluptatem saepe minima? Atque earum ex quisquam harum aliquid asperiores itaque sequi, assumenda suscipit ad.",
+    name: "Nichiren Daishonin",
+    text: "If you want to free yourself from the sufferings of birth and death that you have endured since beginningless time, and without fail achieve unsurpassed enlightenment in this life, you must perceive the mystical truth that is originally inherent in all living beings. This truth is Myoho-Renge-Kyo. Reciting Myoho-Renge-Kyo will therefore enable you to grasp the mystical truth innate in all life.",
   },
   {
     id: 2,
     image: AVTR2,
     alt: "Avatar two",
-    name: "Lionel Andres Messi",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempore ipsam labore odit nulla, aut voluptatem saepe minima? Atque earum ex quisquam harum aliquid asperiores itaque sequi, assumenda suscipit ad.",
+    name: "Daisaku Ikeda",
+    text: "With Buddhism, we can march through life with unflappable conviction, always triumphant. We can move forward on the path to happiness without any fear, with a heart full of optimism and hope, together with our family, friends and loved ones. We are here to enjoy our life. Let us not live an unhappy existence, full of sadness, suffering or defeat. (...) Let us live, then, a jubilant, triumphant and happy existence. And may each day be imbued with deep meaning and satisfaction! That is the purpose for which we practice Buddhism.",
   },
   {
     id: 3,
     image: AVTR3,
     alt: "Avatar three",
-    name: "Marcelo Daniel Gallardo",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempore ipsam labore odit nulla, aut voluptatem saepe minima? Atque earum ex quisquam harum aliquid asperiores itaque sequi, assumenda suscipit ad.",
+    name: "Joe Dispenza",
+    text: "The point is that true happiness has nothing to do with pleasure, because the feel-good reliance on such intensely stimulating things only takes us further away from true joy.",
   },
   {
     id: 4,
-    image: AVTR4,
+    image: AVTR1,
     alt: "Avatar four",
-    name: "Stevie Wonder",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempore ipsam labore odit nulla, aut voluptatem saepe minima? Atque earum ex quisquam harum aliquid asperiores itaque sequi, assumenda suscipit ad.",
+    name: "Shakyamuni",
+    text: "You can search through the entire universe for someone who is more deserving of your love and affection than yourself, and that person is nowhere to be found. You yourself, as much as anyone in the entire universe, deserve your own love and affection.",
   },
 ];
 
