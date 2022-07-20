@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/IMG_9834.JPG";
+import ME from "../../assets/fotos-proyectos/fotito5.jpeg";
 import { FaAward } from "react-icons/fa";
 import { GiBookPile } from "react-icons/gi";
 import { VscFolderLibrary } from "react-icons/vsc";

@@ -67,7 +67,7 @@ const Contact = () => {
             <h4>WhatsApp</h4>
             <h5>+54 9 3364 34-8924</h5>
             <a
-              href="https://api.whatsapp.com/send?phone=+5493364348924"
+              href="https://api.whatsapp.com/send?phone=543364348924"
               target="_blank"
               rel="noreferrer"
             >
