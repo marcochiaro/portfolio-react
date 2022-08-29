@@ -3,36 +3,52 @@ import "./services.css";
 import { BiCheck } from "react-icons/bi";
 
 const Services = () => {
-  const stateManagament = [
+  const otherServicies = [
     {
       id: 1,
-      text: "ContextAPI",
+      text: "React and Custom Hooks",
     },
     {
       id: 1,
-      text: "Mobx-state-tree",
+      text: "Axios",
     },
     {
       id: 1,
-      text: "React Redux",
+      text: "Prettier/Linter",
     },
   ];
-  const mainStack = [
+  const backEndStack = [
     {
       id: 1,
-      text: "NextJS",
-    },
-    {
-      id: 1,
-      text: "ReactJS",
+      text: "NodeJs",
     },
     {
       id: 1,
       text: "TypeScript",
     },
+    {
+      id: 1,
+      text: "Express",
+    },
+    {
+      id: 1,
+      text: "TypeORM",
+    },
+    {
+      id: 1,
+      text: "MySQL",
+    },
+    {
+      id: 1,
+      text: "JWT",
+    },
   ];
 
-  const styling = [
+  const frontEndStack = [
+    {
+      id: 1,
+      text: "NextJs",
+    },
     {
       id: 1,
       text: "Ant-Design",
@@ -43,11 +59,11 @@ const Services = () => {
     },
     {
       id: 1,
-      text: "css.modules",
+      text: "mobx-state-tree",
     },
     {
       id: 1,
-      text: "Bootstrap",
+      text: "ContextAPI",
     },
   ];
 
@@ -64,7 +80,7 @@ const Services = () => {
           </div>
 
           <ul className="service__list">
-            {stateManagament.map((item) => {
+            {otherServicies.map((item) => {
               return (
                 <li key={item.id}>
                   <BiCheck className="service__list-icon" />
@@ -79,11 +95,11 @@ const Services = () => {
         {/* WEB DEVELOPMENT ARTICLE */}
         <article className="service">
           <div className="service__head">
-            <h3>Main Stack</h3>
+            <h3>BackEnd Stack</h3>
           </div>
 
           <ul className="service__list">
-            {mainStack.map((item) => {
+            {backEndStack.map((item) => {
               return (
                 <li key={item.id}>
                   <BiCheck className="service__list-icon" />
@@ -98,11 +114,11 @@ const Services = () => {
         {/* CONTENT CREATION ARTICLE */}
         <article className="service">
           <div className="service__head">
-            <h3>Styles</h3>
+            <h3>Front End Stack</h3>
           </div>
 
           <ul className="service__list">
-            {styling.map((item) => {
+            {frontEndStack.map((item) => {
               return (
                 <li key={item.id}>
                   <BiCheck className="service__list-icon" />
