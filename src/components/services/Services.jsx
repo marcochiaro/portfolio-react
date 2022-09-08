@@ -17,6 +17,7 @@ const Services = () => {
       text: "Prettier/Linter",
     },
   ];
+
   const backEndStack = [
     {
       id: 1,
